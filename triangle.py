@@ -10,4 +10,5 @@ def sierpinski(n):
         d = [sp+x+sp for x in d] + [x+" "+x for x in d]
     return d
  
-print "\n".join(sierpinski(4))
+if __name__ == "__main__":
+    print "\n".join(sierpinski(4))
